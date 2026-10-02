@@ -9,6 +9,7 @@ on:
       - 'styles.css'
       - 'app.js'
       - 'manifest.webmanifest'
+      - 'icon.svg'
       - 'package.json'
       - 'capacitor.config.json'
       - '.github/workflows/android-apk.yml'
@@ -30,6 +31,11 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Prepare web assets
+        run: |
+          mkdir -p www
+          cp index.html styles.css app.js manifest.webmanifest icon.svg www/
 
       - name: Add Android platform
         run: npx cap add android
