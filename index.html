@@ -2,29 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="theme-color" content="#090711" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#0b0812" />
   <meta name="description" content="LockBox — You can't open it. Yet. A playful digital time capsule." />
-  <title>LockBox — You can't open it. Yet.</title>
+  <link rel="manifest" href="manifest.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <title>LockBox — You can't open it. Yet.</title>
 </head>
 <body>
   <div class="app-shell">
-    <div class="ambient ambient-one"></div>
-    <div class="ambient ambient-two"></div>
-    <main id="app" class="screen welcome-screen">
-      <section class="welcome-card">
-        <div class="sparkle s1">✦</div><div class="sparkle s2">✦</div><div class="sparkle s3">✧</div>
-        <div class="brand-lockbox">🔐</div><div class="logo-word">LockBox</div>
-        <p class="tagline">You can't open it. Yet.</p>
-        <div class="hero-box" aria-hidden="true"><div class="box-glow"></div><div class="digital-box"><span>♥</span></div></div>
-        <button class="primary-btn" data-a="home">Get Started <span>→</span></button>
-        <p class="micro-copy">Some things are worth waiting for.</p>
-      </section>
-    </main>
+    <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+    <main id="app" aria-live="polite"></main>
   </div>
   <script src="app.js"></script>
 </body>
