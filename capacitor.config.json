@@ -1,7 +1,7 @@
 {
   "appId": "com.lockbox.app",
   "appName": "LockBox",
-  "webDir": ".",
+  "webDir": "www",
   "bundledWebRuntime": false,
   "server": {
     "androidScheme": "https"
