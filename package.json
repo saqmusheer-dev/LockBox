@@ -1,0 +1,14 @@
+{
+  "name": "lockbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LockBox — You can't open it. Yet.",
+  "scripts": {
+    "build": "echo LockBox is a static web app"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0"
+  }
+}
