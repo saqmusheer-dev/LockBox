@@ -1,0 +1,10 @@
+{
+  "name": "LockBox",
+  "short_name": "LockBox",
+  "description": "You can't open it. Yet.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#08070f",
+  "theme_color": "#090711",
+  "icons": []
+}
